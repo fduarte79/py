@@ -1,12 +1,12 @@
 # Meus Estudos com Python
 
 ### Básico
-+ [Conceitos básicos](intro.md)
-+ [Variaveis](variaveis.md)
-+ [Operadores](operadores.md)
++ [Conceitos básicos](conteudo/intro.md)
++ [Variaveis](conteudo/variaveis.md)
++ [Operadores](conteudo/operadores.md)
 
 ### Tipos de dados
-+ [Cadeia de caracteres](strings.md)
++ [Cadeia de caracteres](conteudo/strings.md)
 
 ### Contorle de fluxos - Condições
-[If, If-else, if-elif](if.md)
+[If, If-else, if-elif](conteudo/if.md)
