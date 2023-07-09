@@ -1,6 +1,7 @@
 # Meus Estudos com Python
 
 ### Básico
++ [Conceitos básicos](intro.md)
 + [Variaveis](variaveis.md)
 + [Operadores](operadores.md)
 
