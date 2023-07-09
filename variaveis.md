@@ -6,8 +6,8 @@
 + podem conter sublinhados. ```peso_altura```.
 
 ### Variáveis numéricas
-Números inteiros. ```3```
-Números reais. ```3.1415```
+Números inteiros. ```3```  
+Números reais. ```3.1415```   
 
 ### Variáveis booleanas
 ```True```   
