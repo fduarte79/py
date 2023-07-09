@@ -8,8 +8,8 @@
 ### Tipos de dados
 + [Cadeia de caracteres](conteudo/strings.md)
 
-### Contorle de fluxos - Condições
+### Controle de Fluxos - Condicional `If`
 + [If, If-else, if-elif](conteudo/if.md)
 
-### Conrole de fluxoa - Laços de Repetição
+### Controle de Fluxo - Laços de Repetição
 + [While](conteudo/while.md)
