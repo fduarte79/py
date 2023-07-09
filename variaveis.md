@@ -10,5 +10,5 @@ Números inteiros. ```3```
 Números reais. ```3.1415```   
 
 ### Variáveis booleanas
-```True```   
-```False```
+Verdadeiro: ```True```   
+Falso: ```False```
