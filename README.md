@@ -10,3 +10,6 @@
 
 ### Contorle de fluxos - Condições
 + [If, If-else, if-elif](conteudo/if.md)
+
+### Conrole de fluxoa - Laços de Repetição
++ [While](conteudo/while.md)
