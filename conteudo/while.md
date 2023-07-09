@@ -5,4 +5,4 @@
 + operador `continue` passa para a próxima iteração
 + operador `pass` apenas ignora e continua a execução sequencial da iteração
 
-[Exemplo](../code/exemplos/laco/exemp1.py)
+[Exemplo](../code/exemplos/lacos/exemp1.py)
