@@ -8,5 +8,5 @@
 ### Tipos de dados
 + [Cadeia de caracteres](strings.md)
 
-### Contorle de fluxos
-
+### Contorle de fluxos - Condições
+[If, If-else, if-elif](if.md)
