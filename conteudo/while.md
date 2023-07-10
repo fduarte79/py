@@ -5,4 +5,4 @@
 + operador `continue` passa para a próxima iteração
 + operador `pass` apenas ignora e continua a execução sequencial da iteração
 
-[Exemplo](../codigos/lacos/while)
+[Códigos](../codigos/lacos/while)
