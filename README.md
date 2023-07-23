@@ -13,3 +13,4 @@
 
 ### Controle de Fluxo - Laços de Repetição
 + [While](conteudo/while.md)
++ [Switcher](conteudo/switcher.md)
