@@ -100,6 +100,5 @@ except TypeError:
 ```
 
 ## Referências
-+ PYTHON SOFTWARE FOUNDATION. *Documenta Python 3*. Disponível em: https://docs.python.org/pt-br/3/. Acesso em: 21 maio 2026.
 + PYTHON SOFTWARE FOUNDATION. Python 3 Documentation. Disponível em: https://docs.python.org/3/. Acesso em: 21 maio 2026.
-
++ GRUS, Joel. **Data Science do zero: noções fundamentais com Python**. 2. ed. Rio de Janeiro: Alta Books, 2021.
