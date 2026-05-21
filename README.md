@@ -111,6 +111,7 @@ except TypeError:
 + `.append()` adiciona um elemento na lista original;
 + `.extend()` extende a lista original, com outra lista
 + é possível adicionar duas listas, gerando uma terceira outra sem alterar a original (diferente de `.extende`), usando operador `+`
++ `.remove()` remove o elemento pelo conteúdo
 ```{r}
 cesta = ["banana", "uva", "laranja", "morango", "abacaxi", "kiwi", "bergamota", "caqui"]
 
@@ -145,6 +146,11 @@ cesta3 = cesta1 + cesta2
 x, y = ["Python", "R"]
 print(x, y)
 Python R
+
+x = ["Python", "R", "C", "Ruby"]
+x.remove("Python")
+x
+['R', 'C', 'Ruby']
 ```
 
 ## Referências
