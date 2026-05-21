@@ -142,7 +142,9 @@ cesta1 = ["banana", "uva", "laranja", "morango"]
 cesta2 = ["abacaxi", "kiwi", "bergamota", "caqui"]
 cesta3 = cesta1 + cesta2
 
-
+x, y = ["Python", "R"]
+print(x, y)
+Python R
 ```
 
 ## Referências
