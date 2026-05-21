@@ -99,6 +99,52 @@ except TypeError:
     print("Operação entre diferentes tipos de dados")
 ```
 
+## Listas
++ coleção ordenada por indices crescente;
++ sua composição pode ser homogênea (elementos do mesmo tipo) ou heterogênea;
++ a sua declaração é feito com um par de colchetes;
++ o seus elementos são indexados por um número, o primeiro elemento sempre terá índice zero;
++ o operador dois pontos especifica para o interpretador python que é uma faixa;
++ é possível acessar a lista em ordem decrescente;
++ o último elemento tem índice -1, penúltimo -2, antepenúltimo -3, ...
++ operador `in` permite verificar se o elemento está na lista
++ `.append()` adiciona um elemento na lista original;
++ `.extend()` extende a lista original, com outra lista
++ é possível adicionar duas listas, gerando uma terceira outra sem alterar a original (diferente de `.extende`), usando operador `+`
+```{r}
+cesta = ["banana", "uva", "laranja", "morango", "abacaxi", "kiwi", "bergamota", "caqui"]
+
+cesta[0]
+'uva'
+
+cesta[6]
+'bergamota'
+
+cesta[3:5]
+['morango', 'abacaxi']
+
+cesta[-1]
+'caqui'
+
+cesta[-5:-1]
+['banana', 'uva', 'laranja', 'morango', 'abacaxi', 'kiwi', 'bergamota']
+
+"uva" in cesta
+True
+
+cesta.extend(["melancia", "melão"])
+cesta[7:]
+['caqui', 'melancia', 'melão']
+
+cesta.append("limão")
+
+cesta1 = ["banana", "uva", "laranja", "morango"]
+cesta2 = ["abacaxi", "kiwi", "bergamota", "caqui"]
+cesta3 = cesta1 + cesta2
+
+
+```
+
 ## Referências
 + PYTHON SOFTWARE FOUNDATION. Python 3 Documentation. Disponível em: https://docs.python.org/3/. Acesso em: 21 maio 2026.
 + GRUS, Joel. **Data Science do zero: noções fundamentais com Python**. 2. ed. Rio de Janeiro: Alta Books, 2021.
