@@ -76,5 +76,30 @@ f"{x} é {y}"
 'Python é legal.'
 ```
 
+## Exceções
+Recurso para tratar possíveis problemas temporários por exemplo, a divisão por zero
+`ZeroDivisionError`: divisão por zero;\
+`TypeError`: operação entre dados incompatíveis;\
+`ValueError`: uma função recebe um argumento com o tipo correto, mas valor inadequado (converter string para inteiro);\
+`IndexError`: erro ao acessar um índice inexistente;\
+`KeyError`: erro ao buscar uma chave inexistente de um dicionário;\
+`FileNotFoundError`: erro ao abrir/manipular um arquivo que não encontrado;\
+`NameError`: erro ao usar uma variável que ainda não foi definida.
+Exemplos
+```{r}
+try:
+    0/0
+except ZeroDivisionError:
+    print("Divisão por zero.")
+```
+```{r}
+try:
+    0 / '0'
+except TypeError:
+    print("Operação entre diferentes tipos de dados")
+```
+
 ## Referências
-+ GRUS, Joel. **Data Science do zero: primeiras regras com Python**. 2. ed. Rio de Janeiro: Alta Books, 2019
++ PYTHON SOFTWARE FOUNDATION. *Documenta Python 3*. Disponível em: https://docs.python.org/pt-br/3/. Acesso em: 21 maio 2026.
++ PYTHON SOFTWARE FOUNDATION. Python 3 Documentation. Disponível em: https://docs.python.org/3/. Acesso em: 21 maio 2026.
+
