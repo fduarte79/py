@@ -143,14 +143,33 @@ cesta1 = ["banana", "uva", "laranja", "morango"]
 cesta2 = ["abacaxi", "kiwi", "bergamota", "caqui"]
 cesta3 = cesta1 + cesta2
 
-x, y = ["Python", "R"]
-print(x, y)
-Python R
+x, y = ["abacaxi", "kiwi"]
+x,y
+('abacaxi', 'kiwi')
 
 x = ["Python", "R", "C", "Ruby"]
 x.remove("Python")
 x
 ['R', 'C', 'Ruby']
+
+x = ["abacaxi", "kiwi"]
+x.remove("kiwi")
+x
+['abacaxi']
+```
+
+## Tuplas
++ São listas, porém não podem ser alteradas.
++ Mas podem ser copiadas para outras com novas tuplas
+```{r}
+tp1 = ("C", "Python", "Ruby", "R")
+tp1
+('C', 'Python', 'Ruby', 'R')
+
+tp1 = ("C", "Python", "Ruby", "R")
+tp2 = tp1 + ("C++", "Lua")
+tp2
+('C', 'Python', 'Ruby', 'R', 'C++', 'Lua')
 ```
 
 ## Referências
