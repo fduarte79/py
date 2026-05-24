@@ -178,6 +178,38 @@ y
 (['d', 'e', 'f'],)
 ```
 
+## *args e **kwargs
+`*args` e `kwargs` permitem uma função receber um número variavel de argumentos.\
+`*args`: são argumentos posicionais\
+`kwargs`: são argumentos nomeados
+
+```{r}
+def exibir_dados(*args, **kwargs):
+    print("Argumentos posicionais (args):", args)
+    print("Argumentos nomeados (kwargs):", kwargs)
+```
+2 `args` e 2 `kwargs`
+```{r}
+exibir_dados("lang=Python", "i=10", preco=99.90, ativo=True)
+
+Argumentos posicionais (args): ('lang=Python', 'i=10')
+Argumentos nomeados (kwargs): {'preco': 99.9, 'ativo': True}
+```
+Alterando para 4 `args` 0 `kwargs`
+```{r}
+exibir_dados("lang=Python", "i=10", "preco=99.90", "ativo=True")
+
+Argumentos posicionais (args): ('lang=Python', 'i=10', 'preco=99.90', 'ativo=True')
+Argumentos nomeados (kwargs): {}
+```
+
+```{r}
+exibir_dados("lang=Python", "i=10", preco=99.90, ativo=True, coding="UTF-8")
+
+Argumentos posicionais (args): ('lang=Python', 'i=10')
+Argumentos nomeados (kwargs): {'preco': 99.9, 'ativo': True, 'coding': 'UTF-8'}
+```
+
 ## Referências
 + PYTHON SOFTWARE FOUNDATION. Python 3 Documentation. Disponível em: https://docs.python.org/3/. Acesso em: 21 maio 2026.
 + GRUS, Joel. **Data Science do zero: noções fundamentais com Python**. 2. ed. Rio de Janeiro: Alta Books, 2021.
