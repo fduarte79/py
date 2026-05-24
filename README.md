@@ -147,11 +147,6 @@ x, y = ["abacaxi", "kiwi"]
 x,y
 ('abacaxi', 'kiwi')
 
-x = ["Python", "R", "C", "Ruby"]
-x.remove("Python")
-x
-['R', 'C', 'Ruby']
-
 x = ["abacaxi", "kiwi"]
 x.remove("kiwi")
 x
