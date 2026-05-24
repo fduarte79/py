@@ -188,28 +188,36 @@ def exibir_dados(*args, **kwargs):
     print("Argumentos posicionais (args):", args)
     print("Argumentos nomeados (kwargs):", kwargs)
 ```
-2 `args` e 2 `kwargs`
+2 posicionais e 3 nomeados
 ```{r}
-exibir_dados("lang=Python", "i=10", preco=99.90, ativo=True)
+exibir_dados("lang='Python'", "i=10", preco=99.90, ativo=True, coding='UTF8')
 
-Argumentos posicionais (args): ('lang=Python', 'i=10')
-Argumentos nomeados (kwargs): {'preco': 99.9, 'ativo': True}
+Argumentos posicionais (args): ("lang='Python'", 'i=10')
+Argumentos nomeados (kwargs): {'preco': 99.9, 'ativo': True, 'coding': 'UTF8'}
 ```
-Alterando para 4 `args` 0 `kwargs`
+5 posicionais e 0 nomeados
 ```{r}
-exibir_dados("lang=Python", "i=10", "preco=99.90", "ativo=True")
+exibir_dados("lang='Python'", "i=10", "preco=99.90", "ativo=True", "coding='UTF8'")
 
-Argumentos posicionais (args): ('lang=Python', 'i=10', 'preco=99.90', 'ativo=True')
+Argumentos posicionais (args): ("lang='Python'", 'i=10', 'preco=99.90', 'ativo=True', "coding='UTF8'")
 Argumentos nomeados (kwargs): {}
 ```
-
+0 posicionais e 5 nomeados
 ```{r}
-exibir_dados("lang=Python", "i=10", preco=99.90, ativo=True, coding="UTF-8")
+exibir_dados(lang='Python', i=10, preco=99.90, ativo=True, coding='UTF8')
 
-Argumentos posicionais (args): ('lang=Python', 'i=10')
-Argumentos nomeados (kwargs): {'preco': 99.9, 'ativo': True, 'coding': 'UTF-8'}
+Argumentos posicionais (args): ()
+Argumentos nomeados (kwargs): {'lang': 'Python', 'i': 10, 'preco': 99.9, 'ativo': True, 'coding': 'UTF8'}
 ```
+Cuidado al alternar a ordem entre posicionais e nomeados
+```{r}
+exibir_dados(lang='Python', "i=10", preco=99.90, ativo=True, coding='UTF8')
 
+File "<ipython-input-48-1632b478c785>", line 1
+    exibir_dados(lang='Python', "i=10", preco=99.90, ativo=True, coding='UTF8')
+                               ^
+SyntaxError: positional argument follows keyword argumen
+```
 ## Referências
 + PYTHON SOFTWARE FOUNDATION. Python 3 Documentation. Disponível em: https://docs.python.org/3/. Acesso em: 21 maio 2026.
 + GRUS, Joel. **Data Science do zero: noções fundamentais com Python**. 2. ed. Rio de Janeiro: Alta Books, 2021.
