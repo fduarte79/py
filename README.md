@@ -167,6 +167,17 @@ tp2
 ('C', 'Python', 'Ruby', 'R', 'C++', 'Lua')
 ```
 
+## (Des)compactão de varivávei
+```{r{
+lista1 = ["a", "b", "c"]
+lista2 = ["d", "e", "f"]
+
+x
+(['a', 'b', 'c'],)
+y
+(['d', 'e', 'f'],)
+```
+
 ## Referências
 + PYTHON SOFTWARE FOUNDATION. Python 3 Documentation. Disponível em: https://docs.python.org/3/. Acesso em: 21 maio 2026.
 + GRUS, Joel. **Data Science do zero: noções fundamentais com Python**. 2. ed. Rio de Janeiro: Alta Books, 2021.
